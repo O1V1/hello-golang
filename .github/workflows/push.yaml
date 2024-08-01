@@ -39,7 +39,7 @@ jobs:
           images: o1v1/hello-golang
 
       - name: Build and push Docker Inage
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6.5.0
         with:
           context: .
           push: true
